@@ -13,6 +13,7 @@ This is a web application designed to help Taekwondo practitioners learn Poomsae
 ## Technologies Used
 
 - **React:** A JavaScript library for building user interfaces.
+- **JavaScript:** Programming language for adding interactivity and logic to the web page.
 - **HTML:** For structuring the web content.
 - **CSS:** For styling and layout.
 
