@@ -1,5 +1,7 @@
 "use client";
-import { useState } from "react";
+{
+  /*Frame-motion needs to be run in the browser, thats why this componente has to be CSR*/
+}
 import { motion } from "framer-motion";
 import SwitchAndToogles from "./SwitchAndToogles";
 import { useTheme } from "@/lib/context/ThemeContext";
