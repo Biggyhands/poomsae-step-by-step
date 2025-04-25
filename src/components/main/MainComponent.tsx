@@ -1,9 +1,12 @@
 import React from "react";
+import Hero from "./Hero";
+import TaekwondoInfoSection from "./TaekwondoInfoSection";
 
 function MainComponent() {
   return (
     <main>
-      <h1>Main Component</h1>
+      <Hero />
+      <TaekwondoInfoSection />
     </main>
   );
 }
