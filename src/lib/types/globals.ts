@@ -3,3 +3,11 @@ export interface SwitchAndTooglesProps {
   darkMode: boolean;
   setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
 }
+
+/*Used in TaekwondoInfoSection*/
+export interface TaekwondoCard {
+  title: string;
+  description: string;
+  image: string;
+  link: string;
+}

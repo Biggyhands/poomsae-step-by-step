@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Poomsae Step by Step",
   description: "Taekwondo general guide",
   icons: {
-    icon: "/file.jpg",
+    icon: "/tkdicon.png",
   },
 };
 

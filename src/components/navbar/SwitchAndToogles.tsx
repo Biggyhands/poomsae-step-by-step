@@ -3,7 +3,7 @@ import { Switch } from "@/components/ui/switch";
 import { Sun, Moon } from "lucide-react";
 import { useTheme } from "@/lib/context/ThemeContext";
 
-import { SwitchAndTooglesProps } from "@/lib/types/globals";
+/*import { SwitchAndTooglesProps } from "@/lib/types/globals";*/
 
 export default function SwitchAndToogles() {
   const { darkMode, toggleDarkMode } = useTheme();

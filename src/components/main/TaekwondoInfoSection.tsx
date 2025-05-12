@@ -11,35 +11,17 @@ import {
 } from "@/components/ui/card";
 import { motion } from "framer-motion";
 
-const cards = [
-  {
-    title: "Historia del Taekwondo",
-    description:
-      "El Taekwondo tiene raíces antiguas en Corea, evolucionando a través de los siglos hasta convertirse en un arte marcial moderno reconocido globalmente.",
-    image: "/history.jpg",
-    link: "/historia",
-  },
-  {
-    title: "Filosofía del Taekwondo",
-    description:
-      "Basado en valores como la cortesía, integridad, perseverancia y autocontrol, el Taekwondo forma tanto el cuerpo como la mente del practicante.",
-    image: "/principles.png",
-    link: "/filosofia",
-  },
-  {
-    title: "Cinturones del Taekwondo",
-    description:
-      "El sistema de cinturones representa el progreso del estudiante, desde el blanco de principiante hasta el negro, símbolo de maestría y responsabilidad.",
-    image: "/belts.jpg",
-    link: "/cinturones",
-  },
-];
+import { taekwondoCards } from "@/lib/utils";
 
 const TaekwondoInfoSection = () => {
+  {
+    /*the app maps an array and display some basic info  */
+  }
+
   return (
     <section className="py-10 px-4 bg-gray-100 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-        {cards.map((card, index) => (
+        {taekwondoCards.map((card, index) => (
           <Link href={card.link} key={index}>
             <motion.div
               whileHover={{
@@ -50,13 +32,13 @@ const TaekwondoInfoSection = () => {
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
               className="rounded-lg overflow-hidden cursor-pointer"
             >
-              <Card className="bg-white dark:bg-gray-800 text-gray-900 dark:text-white shadow-md">
+              <Card className="bg-white dark:bg-gray-800 text-gray-900 dark:text-white shadow-md pt-0">
                 <Image
                   src={card.image}
                   alt={card.title}
                   width={400}
                   height={250}
-                  className="w-full h-full object-cover rounded-t-lg"
+                  className="w-full aspect-[4/3] object-cover rounded-lg"
                 />
                 <CardContent className="p-5">
                   <CardTitle>{card.title}</CardTitle>
