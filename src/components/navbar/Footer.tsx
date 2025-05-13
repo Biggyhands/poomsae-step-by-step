@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -33,12 +34,12 @@ function Footer() {
               Sobre el Proyecto
             </h3>
             <p className="text-sm ">
-              <a
+              <Link
                 href="/sobre-el-proyecto"
                 className="text-blue-500 hover:underline"
               >
                 Más detalles aquí
-              </a>
+              </Link>
             </p>
           </div>
         </div>
@@ -50,27 +51,27 @@ function Footer() {
             <strong className="text-black dark:text-white">
               Redes / Portafolio:
             </strong>{" "}
-            <a
+            <Link
               href="https://www.linkedin.com/in/robertmanotas/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline"
             >
               LinkedIn
-            </a>{" "}
+            </Link>{" "}
             |{" "}
-            <a
+            <Link
               href="https://github.com/Biggyhands"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline"
             >
               GitHub
-            </a>{" "}
+            </Link>{" "}
             |{" "}
-            <a href="/" className="text-blue-500 hover:underline">
+            <Link href="/" className="text-blue-500 hover:underline">
               Correo
-            </a>
+            </Link>
           </p>
 
           {/* Fecha del Proyecto */}
