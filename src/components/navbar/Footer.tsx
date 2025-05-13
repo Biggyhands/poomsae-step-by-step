@@ -17,7 +17,7 @@ function Footer() {
             </p>
           </div>
 
-          {/* Aviso Legal */}
+          {/* Legal warnings*/}
           <div>
             <h3 className="text-lg font-semibold text-black dark:text-white mb-3">
               Aviso Legal
@@ -28,25 +28,21 @@ function Footer() {
             </p>
           </div>
 
-          {/* Sobre el Proyecto */}
+          {/* About the project */}
           <div>
             <h3 className="text-lg font-semibold text-black dark:text-white mb-3">
               Sobre el Proyecto
             </h3>
             <p className="text-sm ">
-              <Link
-                href="/sobre-el-proyecto"
-                className="text-blue-500 hover:underline"
-              >
+              <Link href="/about" className="text-blue-500 hover:underline">
                 Más detalles aquí
               </Link>
             </p>
           </div>
         </div>
 
-        {/* Línea separadora */}
         <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm">
-          {/* Redes / Portafolio */}
+          {/* network*/}
           <p className="mb-2">
             <strong className="text-black dark:text-white">
               Redes / Portafolio:
@@ -74,7 +70,7 @@ function Footer() {
             </Link>
           </p>
 
-          {/* Fecha del Proyecto */}
+          {/*Project date*/}
           <p className="text-gray-500">
             © 2025 - Proyecto Poomsae Step by Step
           </p>

@@ -20,3 +20,8 @@ export type MainSeparatorProps = {
 export interface CardsGridProps {
   cards: TaekwondoCard[];
 }
+
+export interface TechnologyInfo {
+  name: string;
+  icon: React.ReactNode;
+}
