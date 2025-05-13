@@ -37,7 +37,7 @@ export const taekwondoCompetitionsCards: TaekwondoCard[] = [
   {
     title: "Combate Individual",
     description:
-      "El combate en Taekwondo, también llamado Kyorugi, es una competencia cuerpo a cuerpo donde dos atletas se enfrentan aplicando técnicas de ataque y defensa con velocidad, precisión y estrategia.",
+      "El combate en Taekwondo, también llamado Kyorugi, es una competencia cuerpo a cuerpo donde dos atletas se enfrentan aplicando técnicas de ataque y defensa.",
     image: "/combat.png",
     link: "/combate-individual",
   },
@@ -56,3 +56,35 @@ export const taekwondoCompetitionsCards: TaekwondoCard[] = [
     link: "/poomsae",
   },
 ];
+
+/*Used in Taekwondo guide section*/
+
+export const poomsaeGuideCards: TaekwondoCard[] = [
+  {
+    title: "Poomsae para Principiantes",
+    description:
+      "Dirigido a estudiantes de cintas blancas a verdes, esta guía cubre los fundamentos de Poomsae, incluyendo posturas básicas, movimientos simples y la correcta respiración.",
+    image: "/poomsaebeginner.png",
+    link: "/poomsae/principiantes",
+  },
+  {
+    title: "Poomsae Avanzado",
+    description:
+      "Enfocado en estudiantes intermedios (cintas azules a rojas), esta sección detalla técnicas complejas, giros, y la fluidez entre movimientos con aplicación marcial.",
+    image: "/poomsaeadvanced.png",
+    link: "/poomsae/avanzado",
+  },
+  {
+    title: "Poomsae para Cinturones Negros",
+    description:
+      "Guía especializada para cinturones negros. Incluye poomsaes superiores, aplicaciones técnicas profundas y los estándares de competición nacional e internacional.",
+    image: "/poomsaeblackbelts.png",
+    link: "/poomsae/cinturones-negros",
+  },
+];
+{
+  /*Copyright: Karpov Konstantin - poomsae begginer 
+    Copyright::tkd-cambridge- Poomsae advanced
+    Copyright: taekwondonation Poomsae black belts
+  */
+}

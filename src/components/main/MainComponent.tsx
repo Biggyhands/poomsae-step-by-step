@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./Hero";
 import TaekwondoInfoSection from "./TaekwondoInfoSection";
 import TaekwondoCompetitionSection from "./TaekwondoCompetitionSection";
+import TaekwondoPoomsaeGuide from "./TaekwondoPoomsaeGuide";
 
 function MainComponent() {
   return (
@@ -9,6 +10,7 @@ function MainComponent() {
       <Hero />
       <TaekwondoInfoSection />
       <TaekwondoCompetitionSection />
+      <TaekwondoPoomsaeGuide />
     </main>
   );
 }

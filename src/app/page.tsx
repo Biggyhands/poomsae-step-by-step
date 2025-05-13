@@ -1,4 +1,5 @@
 import MainNav from "@/components/navbar/MainNav";
+import Footer from "@/components/navbar/Footer";
 import MainComponent from "@/components/main/MainComponent";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <MainNav />
       <MainComponent />
+      <Footer />
     </div>
   );
 }

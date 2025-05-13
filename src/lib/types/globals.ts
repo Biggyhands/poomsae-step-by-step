@@ -16,3 +16,7 @@ export interface TaekwondoCard {
 export type MainSeparatorProps = {
   title: string;
 };
+
+export interface CardsGridProps {
+  cards: TaekwondoCard[];
+}
