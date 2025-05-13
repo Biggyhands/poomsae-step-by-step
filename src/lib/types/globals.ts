@@ -11,3 +11,8 @@ export interface TaekwondoCard {
   image: string;
   link: string;
 }
+
+/*Used in Main Separator to reduce code*/
+export type MainSeparatorProps = {
+  title: string;
+};

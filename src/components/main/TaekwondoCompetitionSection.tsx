@@ -1,5 +1,5 @@
-// components/TaekwondoInfoSection.tsx
 "use client";
+import React from "react";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -10,21 +10,15 @@ import {
   CardDescription,
 } from "@/components/ui/card";
 import { motion } from "framer-motion";
-
-import { taekwondoCards } from "@/lib/utils";
+import { taekwondoCompetitionsCards } from "@/lib/utils";
 import MainSeparator from "./MainSeparator";
 
-const TaekwondoInfoSection = () => {
-  {
-    /*the app maps an array and display some basic info  */
-  }
-
+function TaekwondoCompetitionSection() {
   return (
     <section className="py-10 px-4 bg-gray-100 dark:bg-gray-900">
-      {/*I realised that this is the best way to reduce tons of repetitive code, just type in the prop the name of the section*/}
-      <MainSeparator title="Generalidades" />
+      <MainSeparator title="Competencias" />
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-        {taekwondoCards.map((card, index) => (
+        {taekwondoCompetitionsCards.map((card, index) => (
           <Link href={card.link} key={index}>
             <motion.div
               whileHover={{
@@ -56,6 +50,6 @@ const TaekwondoInfoSection = () => {
       </div>
     </section>
   );
-};
+}
 
-export default TaekwondoInfoSection;
+export default TaekwondoCompetitionSection;
