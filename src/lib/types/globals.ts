@@ -25,3 +25,8 @@ export interface TechnologyInfo {
   name: string;
   icon: React.ReactNode;
 }
+
+export interface TaekwondoHistoryTimeLine {
+  year: string;
+  description: string;
+}

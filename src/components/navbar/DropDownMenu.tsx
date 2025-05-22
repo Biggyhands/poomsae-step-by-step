@@ -22,13 +22,13 @@ function DropDownMenu() {
         </DropdownMenuTrigger>
         <DropdownMenuContent>
           <DropdownMenuItem>
-            <Link href="/historia">Historia del Taekwondo</Link>
+            <Link href="/history">Historia del Taekwondo</Link>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            <Link href="/filosofia">Filosofía (Valores)</Link>
+            <Link href="/philosophy">Filosofía (Valores)</Link>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            <Link href="/cinturones">Cinturones y sus significados</Link>
+            <Link href="/belts">Cinturones y sus significados</Link>
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
@@ -45,7 +45,7 @@ function DropDownMenu() {
             <Link href="/kyorugi">Kyorugi y sus reglas</Link>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            <Link href="/poomsae-reglas">Poomsae y sus reglas</Link>
+            <Link href="/poomsae">Poomsae y sus reglas</Link>
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>

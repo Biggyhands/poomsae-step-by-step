@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function AppTitle() {
   return (
@@ -13,10 +14,12 @@ function AppTitle() {
       />
 
       {/*the app title switches with the width of the device */}
-      <span className="text-lg font-bold">
-        <span className="block md:hidden">Poomsae SbS</span>
-        <span className="hidden md:block">Poomsae Step by Step</span>
-      </span>
+      <Link href="/">
+        <span className="text-lg font-bold">
+          <span className="block md:hidden">Poomsae SbS</span>
+          <span className="hidden md:block">Poomsae Step by Step</span>
+        </span>
+      </Link>
     </div>
   );
 }

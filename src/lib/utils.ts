@@ -2,6 +2,7 @@ import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
 import { TaekwondoCard } from "@/lib/types/globals";
+import { TaekwondoHistoryTimeLine } from "@/lib/types/globals";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -82,9 +83,44 @@ export const poomsaeGuideCards: TaekwondoCard[] = [
     link: "/poomsae/cinturones-negros",
   },
 ];
+
+export const taekwondohistoryTimeLine: TaekwondoHistoryTimeLine[] = [
+  {
+    year: "1955",
+    description:
+      'Se adopta oficialmente el nombre "Taekwondo" y se establece la Asociación Coreana de Taekwondo.',
+  },
+  {
+    year: "1966",
+    description:
+      "Fundación de la Federación Internacional de Taekwondo (ITF) por el General Choi Hong Hi para difundir el arte a nivel mundial.",
+  },
+  {
+    year: "1973",
+    description:
+      "Se funda la Federación Mundial de Taekwondo (WT), centrada en el deporte de competencia. También se inaugura el Kukkiwon, sede global del Taekwondo.",
+  },
+  {
+    year: "1988",
+    description:
+      "El Taekwondo debuta como deporte de exhibición en los Juegos Olímpicos de Seúl.",
+  },
+  {
+    year: "2000",
+    description:
+      "El Taekwondo se convierte en deporte oficial en los Juegos Olímpicos de Sídney.",
+  },
+  {
+    year: "Actualidad",
+    description:
+      "El Taekwondo es practicado por millones de personas en más de 200 países como arte marcial, disciplina deportiva y estilo de vida.",
+  },
+];
+
 {
   /*Copyright: Karpov Konstantin - poomsae begginer 
     Copyright::tkd-cambridge- Poomsae advanced
     Copyright: taekwondonation Poomsae black belts
+    Copyright: taekwondo history - https://itftkd.sport/
   */
 }
