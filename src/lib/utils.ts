@@ -15,21 +15,21 @@ export const taekwondoCards: TaekwondoCard[] = [
     description:
       "El Taekwondo tiene raíces antiguas en Corea, evolucionando a través del tiempo hasta convertirse en un arte marcial reconocido globalmente.",
     image: "/history.jpg",
-    link: "/historia",
+    link: "/history",
   },
   {
     title: "Filosofía del Taekwondo",
     description:
       "Basado en valores como la cortesía, integridad, perseverancia y autocontrol, el Taekwondo forma tanto el cuerpo como la mente del practicante.",
     image: "/principles.png",
-    link: "/filosofia",
+    link: "/philosophy",
   },
   {
     title: "Sistema de cinturones",
     description:
       "Los cinturones en el Taekwondo representan el progreso del estudiante, desde el blanco de principiante hasta el negro.",
     image: "/belts.jpg",
-    link: "/cinturones",
+    link: "/belts",
   },
 ];
 /*Used in TaekwondoCompetitionSection*/
@@ -84,6 +84,7 @@ export const poomsaeGuideCards: TaekwondoCard[] = [
   },
 ];
 
+/*Used for the History time line seciton*/
 export const taekwondohistoryTimeLine: TaekwondoHistoryTimeLine[] = [
   {
     year: "1955",
