@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/lib/context/ThemeContext";
+import MainNav from "@/components/navbar/MainNav";
+import Footer from "@/components/navbar/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +32,14 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {/*Theme context provider for dark or light mode*/}
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          {/* Main navigation bar */}
+          <MainNav />
+          {/* Main content */}
+          {children}
+          {/* Footer */}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
