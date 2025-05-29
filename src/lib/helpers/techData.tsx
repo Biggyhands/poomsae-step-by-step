@@ -24,3 +24,5 @@ export const technologies: TechnologyInfo[] = [
     icon: <Smile className="w-5 h-5 text-gray-700 dark:text-white" />,
   },
 ];
+
+/*pls add react icons */

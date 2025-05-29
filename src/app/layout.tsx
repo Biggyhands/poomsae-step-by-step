@@ -30,7 +30,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 min-h-screen antialiased`}
+      >
         {/*Theme context provider for dark or light mode*/}
         <ThemeProvider>
           {/* Main navigation bar */}
