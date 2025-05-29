@@ -56,13 +56,24 @@ export default function PhilosophyPage() {
   ];
 
   const taekwondoMeanings = [
-    { term: "Tae", korean: "태", definition: "Acción de golpear con el pie." },
+    {
+      term: "Tae",
+      korean: "태",
+      definition:
+        "Acción de pisar o golpear con el pie. Representa las técnicas de patadas o el uso de los pies.",
+    },
     {
       term: "Kwon",
       korean: "권",
-      definition: "Acción de golpear con el puño.",
+      definition:
+        "significa puño o golpear con el puño. Representa el uso de las manos o puños en combate.",
     },
-    { term: "Do", korean: "도", definition: "Camino, vía o disciplina." },
+    {
+      term: "Do",
+      korean: "도",
+      definition:
+        "significa camino, disciplina o modo de vida. Es un concepto filosófico que implica un camino de desarrollo personal y autodisciplina.",
+    },
   ];
 
   const autoplayPlugin = React.useRef(
@@ -104,8 +115,8 @@ export default function PhilosophyPage() {
           ))}
         </div>
         <p className="text-gray-800 dark:text-gray-200 text-lg leading-relaxed text-center bg-gray-100 dark:bg-gray-800/50 p-6 rounded-lg shadow-sm">
-          <strong>Taekwondo</strong> es entonces "el camino del pie y del puño"
-          — una filosofía de vida, no solo una técnica de combate.
+          <strong>Taekwondo</strong> significa "el camino del pie y del puño" —
+          una filosofía de vida, no solo una técnica de combate.
         </p>
       </section>
 
@@ -193,32 +204,6 @@ export default function PhilosophyPage() {
             del compromiso con uno mismo y con la disciplina.
           </p>
         </section>
-
-        <section>
-          <h2 className="text-3xl font-semibold text-gray-900 dark:text-white mb-6">
-            Una Práctica del Cuerpo y la Mente
-          </h2>
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">
-            Antes de cada práctica, el alumno respira profundamente, se centra y
-            se conecta con su propósito. El Taekwondo no solo entrena el cuerpo,
-            sino también la mente: la atención, la paciencia, la calma y la
-            reflexión son partes esenciales del proceso de aprendizaje.
-          </p>
-        </section>
-      </div>
-
-      <div className="mt-20 sm:mt-24 bg-blue-100 dark:bg-blue-900/70 p-8 sm:p-12 rounded-xl text-center shadow-xl">
-        {/* ... CTA ... */}
-        <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-4">
-          Practicar Taekwondo es más que entrenar el cuerpo.
-        </h3>
-        <p className="mb-8 text-lg text-gray-700 dark:text-gray-200 leading-relaxed max-w-xl mx-auto">
-          Es caminar un camino de respeto, fuerza interior y crecimiento
-          constante.
-        </p>
-        <button className="bg-blue-600 text-white px-10 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-300 ease-in-out shadow-md hover:shadow-xl transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-          Descubre tu potencial
-        </button>
       </div>
     </div>
   );
