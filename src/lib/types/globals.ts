@@ -25,7 +25,7 @@ export interface CardsGridProps {
 
 export interface TechnologyInfo {
   name: string;
-  icon: React.ReactNode;
+  icon: React.ReactElement;
 }
 
 export interface TaekwondoHistoryTimeLine {

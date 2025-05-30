@@ -14,6 +14,10 @@ export default function CreditsContextAndMessage() {
         <strong className="text-gray-800 dark:text-gray-200">
           Ingeniero de Software
         </strong>{" "}
+        , practicante de{" "}
+        <strong className="text-gray-800 dark:text-gray-200">
+          Taekwon do{" "}
+        </strong>
         y desarrollador{" "}
         <strong className="text-gray-800 dark:text-gray-200">Front-End</strong>,
         tuve la oportunidad de practicar y aplicar mis conocimientos creando

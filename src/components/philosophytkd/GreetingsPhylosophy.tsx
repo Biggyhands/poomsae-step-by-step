@@ -18,6 +18,8 @@ function GreetingsPhylosophy() {
 
       <div className="md:w-1/2">
         <Image
+          width={500}
+          height={500}
           src="/greeting-taekwondo.png"
           alt="Saludo en Taekwondo"
           className="w-full rounded-lg shadow-md object-cover"

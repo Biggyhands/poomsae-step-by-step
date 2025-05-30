@@ -19,6 +19,8 @@ function UniformPhilosophy() {
 
       <div className="order-2 md:order-1 md:w-1/2">
         <Image
+          width={500}
+          height={500}
           src="/uniform-taekwondo.png"
           alt="Dobok tradicional de Taekwondo"
           className="rounded-lg shadow-md w-full object-cover max-h-[400px]"

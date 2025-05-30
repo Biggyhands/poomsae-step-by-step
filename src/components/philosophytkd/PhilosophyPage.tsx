@@ -7,6 +7,7 @@ import GreetingsPhylosophy from "./GreetingsPhylosophy";
 import UniformPhilosophy from "./UniformPhilosophy";
 import PhilosophyMeaningSection from "./PhilosophyMeaningSection";
 import PhilosophyValues from "./PhilosophyValues";
+import ButtonBack from "../main/ButtonBack";
 
 export default function PhilosophyPage() {
   return (
@@ -34,6 +35,8 @@ export default function PhilosophyPage() {
 
         <UniformPhilosophy />
       </div>
+      {/* Back to home button */}
+      <ButtonBack />
     </div>
   );
 }

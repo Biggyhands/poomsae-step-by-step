@@ -1,28 +1,43 @@
 import React from "react";
-import { Code, Wind, Component, Smile } from "lucide-react";
+
+import {
+  SiNextdotjs,
+  SiTailwindcss,
+  SiShadcnui,
+  SiLucide,
+  SiTypescript,
+  SiReact,
+} from "react-icons/si";
+
 import { TechnologyInfo } from "@/lib/types/globals";
 
 export const technologies: TechnologyInfo[] = [
   {
     name: "Next.js",
-    icon: <Code className="w-5 h-5 text-gray-700 dark:text-white" />,
+    icon: <SiNextdotjs className="w-5 h-5 text-black dark:text-white" />,
   },
   {
     name: "React.js",
-    icon: <Code className="w-5 h-5 text-gray-700 dark:text-white" />,
+    icon: <SiReact className="w-5 h-5 text-sky-500" />,
+  },
+  {
+    name: "Typescript",
+    icon: <SiTypescript className="w-5 h-5 text-sky-700" />,
   },
   {
     name: "Tailwind CSS",
-    icon: <Wind className="w-5 h-5 text-gray-700 dark:text-white" />,
+    icon: <SiTailwindcss className="w-5 h-5 text-sky-600" />,
   },
   {
     name: "Shadcn/ui",
-    icon: <Component className="w-5 h-5 text-gray-700 dark:text-white" />,
+    icon: <SiShadcnui className="w-5 h-5 text-gray-700 dark:text-gray-300" />,
   },
   {
     name: "Lucide",
-    icon: <Smile className="w-5 h-5 text-gray-700 dark:text-white" />,
+    icon: <SiLucide className="w-5 h-5 text-orange-500" />,
+  },
+  {
+    name: "React-icons",
+    icon: <SiReact className="w-5 h-5 text-red-500" />,
   },
 ];
-
-/*pls add react icons */
