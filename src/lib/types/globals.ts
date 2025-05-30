@@ -1,3 +1,5 @@
+import { type IconType } from "react-icons";
+
 /*Used in Switch and Toogles*/
 export interface SwitchAndTooglesProps {
   darkMode: boolean;
@@ -29,4 +31,20 @@ export interface TechnologyInfo {
 export interface TaekwondoHistoryTimeLine {
   year: string;
   description: string;
+}
+
+/*Used in Philosopy page - taekwondo meaning code*/
+
+export interface TaekwondoMeaningItem {
+  term: string;
+  korean: string;
+  definition: string;
+}
+
+/*Used in Philosopy page - taekwondo values code*/
+export interface ValueItem {
+  icon: IconType;
+  title: string;
+  description: string;
+  color: string;
 }

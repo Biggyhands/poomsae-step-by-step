@@ -3,6 +3,16 @@ import { twMerge } from "tailwind-merge";
 
 import { TaekwondoCard } from "@/lib/types/globals";
 import { TaekwondoHistoryTimeLine } from "@/lib/types/globals";
+import { TaekwondoMeaningItem } from "@/lib/types/globals";
+import { ValueItem } from "@/lib/types/globals";
+
+import {
+  FaRegHandshake,
+  FaBalanceScale,
+  FaFireAlt,
+  FaBrain,
+  FaFistRaised,
+} from "react-icons/fa";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -115,6 +125,64 @@ export const taekwondohistoryTimeLine: TaekwondoHistoryTimeLine[] = [
     year: "Actualidad",
     description:
       "El Taekwondo es practicado por millones de personas en más de 200 países como arte marcial, disciplina deportiva y estilo de vida.",
+  },
+];
+
+/*Used for the taekwondoMeaning seciton*/
+
+export const taekwondoMeaning: TaekwondoMeaningItem[] = [
+  {
+    term: "Tae",
+    korean: "태",
+    definition:
+      "Acción de pisar o golpear con el pie. Representa las técnicas de patadas o el uso de los pies.",
+  },
+  {
+    term: "Kwon",
+    korean: "권",
+    definition:
+      "significa puño o golpear con el puño. Representa el uso de las manos o puños en combate.",
+  },
+  {
+    term: "Do",
+    korean: "도",
+    definition:
+      "significa camino, disciplina o modo de vida. Es un concepto filosófico que implica un camino de desarrollo personal y autodisciplina.",
+  },
+];
+/*Used for the taekwondo Value section*/
+
+export const fundamentalValuesData: ValueItem[] = [
+  {
+    icon: FaRegHandshake,
+    title: "Cortesía",
+    description: "Respeto hacia el maestro, los compañeros y uno mismo.",
+    color: "text-blue-500",
+  },
+  {
+    icon: FaBalanceScale,
+    title: "Integridad",
+    description:
+      "Actuar con honestidad, incluso cuando no hay nadie que te vea.",
+    color: "text-yellow-600",
+  },
+  {
+    icon: FaFireAlt,
+    title: "Perseverancia",
+    description: "Persistir y no rendirse ante los desafíos.",
+    color: "text-red-500",
+  },
+  {
+    icon: FaBrain,
+    title: "Autocontrol",
+    description: "Dominar impulsos y emociones, mantener la calma.",
+    color: "text-purple-500",
+  },
+  {
+    icon: FaFistRaised,
+    title: "Coraje",
+    description: "Afrontar los miedos con valentía y determinación.",
+    color: "text-green-600",
   },
 ];
 
