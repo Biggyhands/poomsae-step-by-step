@@ -19,7 +19,7 @@ function Hero() {
   }, []);
 
   return (
-    <section className="relative h-[600px] flex items-center justify-center">
+    <section className="relative h-[700px]  flex items-center justify-center">
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <Image
