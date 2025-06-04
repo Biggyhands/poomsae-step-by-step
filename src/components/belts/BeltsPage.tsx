@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import BeltsCarousel from "./BeltsCarousel";
+import BeltsFAQ from "./BeltsFAQ";
 
 function BeltsPage() {
   return (
     <section className="py-12 px-4 bg-white dark:bg-gray-900">
-      {/* Título y descripción centrados */}
       <div className="max-w-4xl mx-auto text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
           Sistema de Cinturones en Taekwondo
@@ -18,8 +18,17 @@ function BeltsPage() {
         </p>
       </div>
 
-      {/* Sección con imagen y texto lado a lado */}
       <div className="max-w-6xl mx-auto mb-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="flex justify-center h-[280px]">
+          <Image
+            src="/poomsaebeginner.png"
+            alt="Grupo de taekwondistas"
+            width={500}
+            height={300}
+            className="rounded-lg shadow-md object-cover"
+          />
+        </div>
+
         <div>
           <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
             ¿Qué representan los cinturones?
@@ -33,17 +42,16 @@ function BeltsPage() {
           </p>
         </div>
 
-        <div className="flex justify-center h-[280px]">
-          <Image
-            src="/poomsaebeginner.png"
-            alt="Grupo de taekwondistas"
-            width={500}
-            height={300}
-            className="rounded-lg shadow-md object-cover"
-          />
-        </div>
+        <section className="md:col-span-2 flex justify-center w-full mt-8 md:mt-12">
+          <BeltsCarousel />
+        </section>
 
-        <BeltsCarousel />
+        <section
+          className="md:col-span-2 flex justify-center w-full mt-8 md:mt-12
+"
+        >
+          <BeltsFAQ />
+        </section>
       </div>
     </section>
   );

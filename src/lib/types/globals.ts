@@ -48,3 +48,13 @@ export interface ValueItem {
   description: string;
   color: string;
 }
+
+/*Used in BeltsPage and BeltsCarousel*/
+
+export interface BeltItem {
+  title: string;
+  image: string;
+  icon: IconType;
+  iconColorClass: string;
+  description: string;
+}

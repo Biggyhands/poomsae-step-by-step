@@ -9,7 +9,7 @@ import {
 
 function AdittionalHistoryContext() {
   return (
-    <section className="mt-20 px-4 sm:px-8 lg:px-16">
+    <section className="mt-20 px-4 sm:px-8 lg:px-16 rounded-xl">
       <h2 className="text-3xl font-bold text-center mb-10">
         Más sobre la Historia del Taekwondo
       </h2>

@@ -5,6 +5,7 @@ import { TaekwondoCard } from "@/lib/types/globals";
 import { TaekwondoHistoryTimeLine } from "@/lib/types/globals";
 import { TaekwondoMeaningItem } from "@/lib/types/globals";
 import { ValueItem } from "@/lib/types/globals";
+import { BeltItem } from "@/lib/types/globals";
 
 import {
   FaRegHandshake,
@@ -13,6 +14,9 @@ import {
   FaBrain,
   FaFistRaised,
 } from "react-icons/fa";
+
+import { FaSeedling, FaSun, FaSunPlantWilt, FaSkyatlas } from "react-icons/fa6";
+import { MdDangerous, MdSportsMartialArts } from "react-icons/md";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -183,6 +187,57 @@ export const fundamentalValuesData: ValueItem[] = [
     title: "Coraje",
     description: "Afrontar los miedos con valentía y determinación.",
     color: "text-green-600",
+  },
+];
+
+export const tkdBeltItems: BeltItem[] = [
+  {
+    title: "Cinturón Blanco",
+    image: "/white-belt.svg",
+    icon: FaSeedling,
+    iconColorClass: "text-gray-400 dark:text-white ",
+    description:
+      "El cinturón blanco representa pureza e inocencia. Los estudiantes en esta etapa se enfocan en aprender técnicas básicas y entender los principios del Taekwondo. Marca el inicio de su camino en las artes marcales.",
+  },
+  {
+    title: "Cinturón Amarillo",
+    icon: FaSun,
+    image: "/yellow-belt.png",
+    iconColorClass: "text-yellow-500",
+    description:
+      "El cinturón amarillo simboliza los primeros rayos de sol que dan vida a la semilla. Los estudiantes comienzan a aprender movimientos más complejos y construyen una base sólida en Taekwondo.",
+  },
+  {
+    title: "Cinturón Verde",
+    icon: FaSunPlantWilt,
+    image: "/green-belt.svg",
+    iconColorClass: "text-green-500",
+    description:
+      "El cinturón verde representa crecimiento, como el de las plantas que se elevan hacia el sol. Los estudiantes desarrollan mejores técnicas y una comprensión más profunda de la práctica.",
+  },
+  {
+    title: "Cinturón Azul",
+    icon: FaSkyatlas,
+    image: "/blue-belt.svg",
+    iconColorClass: "text-blue-500",
+    description:
+      "El cinturón azul simboliza el cielo, hacia donde crece la planta, alcanzando nuevas alturas. Los estudiantes comienzan a perfeccionar sus técnicas y ganan más confianza en sus habilidades.",
+  },
+  {
+    title: "Cinturón Rojo",
+    icon: MdDangerous,
+    image: "/red-belt.svg",
+    iconColorClass: "text-red-500",
+    description:
+      "El cinturón rojo representa peligro y precaución, recordando a los estudiantes que deben tener control y disciplina en su entrenamiento. Se enfatiza el dominio de técnicas avanzadas.",
+  },
+  {
+    title: "Cinturón Negro",
+    icon: MdSportsMartialArts,
+    image: "/black-belt.svg",
+    iconColorClass: "text-black ",
+    description:
+      "El cinturón negro es la meta final, simbolizando un alto nivel de competencia y entendimiento. Representa la culminación del entrenamiento constante y el comienzo de una nueva etapa en las artes marciales.",
   },
 ];
 
