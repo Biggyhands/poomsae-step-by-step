@@ -4,7 +4,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"; // Asegúrate que la ruta sea correcta
+} from "@/components/ui/accordion";
 
 const beltFaqs = [
   {
@@ -138,7 +138,7 @@ const beltFaqs = [
 
 function BeltsFAQ() {
   return (
-    <section className="py-12 px-4 sm:px-8 lg:px-16 bg-gray-50 dark:bg-gray-800 w-full">
+    <section className="py-12 px-4 sm:px-8 lg:px-16 bg-white dark:bg-gray-900 w-full">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-10 text-gray-900 dark:text-white">
           Preguntas Frecuentes sobre Cinturones

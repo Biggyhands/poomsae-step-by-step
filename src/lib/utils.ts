@@ -193,8 +193,8 @@ export const fundamentalValuesData: ValueItem[] = [
 export const tkdBeltItems: BeltItem[] = [
   {
     title: "Cinturón Blanco",
-    image: "/white-belt.svg",
     icon: FaSeedling,
+    image: "/white-belt.svg",
     iconColorClass: "text-gray-400 dark:text-white ",
     description:
       "El cinturón blanco representa pureza e inocencia. Los estudiantes en esta etapa se enfocan en aprender técnicas básicas y entender los principios del Taekwondo. Marca el inicio de su camino en las artes marcales.",
