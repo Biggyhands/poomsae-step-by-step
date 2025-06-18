@@ -12,7 +12,7 @@ function TimeLineHistory() {
         {taekwondohistoryTimeLine.map((event, index) => (
           <motion.div
             key={index}
-            className="bg-gray-50 dark:bg-gray-900 p-6 rounded-xl shadow-md"
+            className="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl shadow-md"
             whileHover={{ scale: 1.03 }}
             transition={{ duration: 0.3 }}
           >
