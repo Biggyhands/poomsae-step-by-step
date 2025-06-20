@@ -59,13 +59,13 @@ function DropDownMenu() {
         </DropdownMenuTrigger>
         <DropdownMenuContent>
           <DropdownMenuItem>
-            <Link href="/principiantes">Poomsae principiantes</Link>
+            <Link href="/poomsae-beginner">Poomsae principiantes</Link>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            <Link href="/avanzados">Poomsae avanzados</Link>
+            <Link href="/poomsae-advanced">Poomsae avanzados</Link>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            <Link href="/cinturones-negros">Poomsae cinturones negros</Link>
+            <Link href="/poomsae-blackbelt">Poomsae cinturones negros</Link>
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>

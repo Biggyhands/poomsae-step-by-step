@@ -83,7 +83,7 @@ export const poomsaeGuideCards: TaekwondoCard[] = [
     description:
       "Dirigido a estudiantes de cintas blancas a verdes, esta guía cubre los fundamentos de Poomsae, incluyendo posturas básicas, movimientos simples y la correcta respiración.",
     image: "/poomsaebeginner.png",
-    link: "/poomsae/principiantes",
+    link: "/poomsae-beginner",
   },
   {
     title: "Poomsae Avanzado",
