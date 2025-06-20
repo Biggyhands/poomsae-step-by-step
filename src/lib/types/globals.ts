@@ -53,8 +53,8 @@ export interface ValueItem {
 
 export interface BeltItem {
   title: string;
-  image: string;
   icon: IconType;
+  image: string;
   iconColorClass: string;
   description: string;
 }

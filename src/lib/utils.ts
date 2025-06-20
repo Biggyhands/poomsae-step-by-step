@@ -13,9 +13,12 @@ import {
   FaFireAlt,
   FaBrain,
   FaFistRaised,
+  FaSkyatlas,
+  FaSun,
+  FaSeedling,
 } from "react-icons/fa";
 
-import { FaSeedling, FaSun, FaSunPlantWilt, FaSkyatlas } from "react-icons/fa6";
+import { FaSunPlantWilt } from "react-icons/fa6";
 import { MdDangerous, MdSportsMartialArts } from "react-icons/md";
 
 export function cn(...inputs: ClassValue[]) {
