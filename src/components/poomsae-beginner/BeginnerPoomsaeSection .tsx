@@ -46,7 +46,7 @@ function BeginnerPoomsaeSection() {
           {poomsaeCardsData.map((card) => (
             <Link href={card.path} key={card.title}>
               <div className="hover:cursor-pointer bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border border-transparent dark:border-gray-800 flex flex-col items-center text-center transition-transform duration-300 hover:-translate-y-2 h-full">
-                {/* Icono */}
+                {/* Icon */}
                 <card.Icon className={`h-16 w-16 mb-6 ${card.iconColor}`} />
 
                 {/* Título de la tarjeta */}
